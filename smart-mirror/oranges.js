@@ -22,12 +22,3 @@ function weatherLength(){
   else return (weather.main.temp.toString().length);
 
 }
-function startUp() {
-rect(i, i, windowWidth, windowHeight);
-  if (i <= windowWidth) {
-    i += 1;
-  }
-  else {
-    startNow = false;
-  }
-}
