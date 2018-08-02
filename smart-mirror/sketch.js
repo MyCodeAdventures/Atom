@@ -9,8 +9,6 @@ var intDay;
 var intYear;
 var disCountry;
 var disCity;
-var startNow = true
-var i = 0
 
 
 function preload() {
